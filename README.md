@@ -20,3 +20,5 @@ This is used for learning purpose, contains implementation code for below-
 		- Graphs using Adjacency List
 		- Graphs using Adjacency Matrix
 		- BFS on Graphs
+		- GraphDFS
+		- GraphsExample
