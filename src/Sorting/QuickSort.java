@@ -22,6 +22,7 @@ public class QuickSort {
     //It takes the last element as the pivot and then try to compare the elements starting from l index
     // whenever element at j index is smaller than pivot, it swaps jth index element with ith index one
     // such that by the end all the smaller elements than the pivot will be on left of pivot and greater ones will be on right.
+    //10 6 1 7 3
     int partition(int[] arr, int l, int r){
 
         int pivot = arr[r];

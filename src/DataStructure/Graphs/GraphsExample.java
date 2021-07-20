@@ -63,7 +63,8 @@ public class GraphsExample {
         stack.push(v);
         while (stack.isEmpty() != true){
             int n = stack.pop();
-            System.out.print(n+" ");
+            if (visited[n] != true)
+                System.out.print(n+" ");
             visited[n] = true;
             Iterator<Integer> iterator = adjList[n].listIterator();
             while (iterator.hasNext()){

@@ -63,8 +63,9 @@ public class Heap {
             int temp = this.array[max];
             this.array[max] = this.array[i];
             this.array[i] = temp;
+            PercolateDown(max);
         }
-        PercolateDown(max);
+
     }
 
     // Delete, removes the and the returns the first element
