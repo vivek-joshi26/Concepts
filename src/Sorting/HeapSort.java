@@ -50,7 +50,7 @@ public class HeapSort {
 
     public static void main(String[] args) {
         HeapSort obj1 = new HeapSort();
-        int[]  arr = {4,3,5,8,9,10,1};
+        int[]  arr = {3,2,4,1,5};
         System.out.println("Before heapifying the array");
         obj1.Print(arr);
         //obj1.Heapify(arr,arr.length,2);obj1.Heapify(arr,arr.length,1);obj1.Heapify(arr,arr.length,0);
