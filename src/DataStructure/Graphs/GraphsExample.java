@@ -1,9 +1,6 @@
 package DataStructure.Graphs;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class GraphsExample {
 
